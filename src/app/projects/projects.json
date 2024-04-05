@@ -1,0 +1,184 @@
+{
+    "projects": [
+        {
+            "title": "App Minhas Vendas",
+            "text": "Aplicativo móvel publicado na Google Play Store com mais de 1.000 downloads ativos. Desenvolvido em Flutter/Dart com backend em Fastify (Node.js) e PostgreSQL. Oferece gestão completa de vendas com cadastro de clientes e produtos, controle de estoque, pagamentos e relatórios. Inclui integração de IA para automação de processos, busca por voz e análise inteligente de vendas. Projeto 100% desenvolvido do zero com arquitetura escalável, API REST segura e deploy em cloud com Docker e CI/CD.",
+            "link": "https://appminhasvendas.com",
+            "tools": [
+                {
+                    "name": "Flutter"
+                },
+                {
+                    "name": "Dart"
+                },
+                {
+                    "name": "Node.js"
+                },
+                {
+                    "name": "Fastify"
+                },
+                {
+                    "name": "PostgreSQL"
+                },
+                {
+                    "name": "Docker"
+                },
+                {
+                    "name": "CI/CD"
+                },
+                {
+                    "name": "IA"
+                }
+            ]
+        },
+        {
+            "title": "CorteClick",
+            "text": "Plataforma web completa para barbearia desenvolvida como projeto freelance. Sistema de agendamento de serviços, gestão de clientes e controle de vendas. Backend em Next.js + TypeScript com PostgreSQL hospedado em servidor dedicado. Frontend moderno e responsivo em React.js + TailwindCSS com foco em UX intuitiva. Integração com sistemas de pagamento e notificações automáticas. Projeto desenvolvido 100% por conta própria com aplicação de DevOps, CI/CD e monitoramento de performance.",
+            "link": "https://corteclick.com",
+            "tools": [
+                {
+                    "name": "Next.js"
+                },
+                {
+                    "name": "TypeScript"
+                },
+                {
+                    "name": "React.js"
+                },
+                {
+                    "name": "TailwindCSS"
+                },
+                {
+                    "name": "PostgreSQL"
+                },
+                {
+                    "name": "DevOps"
+                },
+                {
+                    "name": "CI/CD"
+                }
+            ]
+        },
+        {
+            "title": "KiyunaPay",
+            "text": "Plataforma de pagamentos digitais desenvolvida end-to-end com foco em alta performance e segurança. Backend com Next.js, TypeScript e PostgreSQL incluindo APIs REST/GraphQL e rotinas críticas de autenticação e processamento financeiro. Frontend escalável em React.js + TailwindCSS com UX responsiva e acessibilidade. Implementação de CI/CD com pipelines automatizados e práticas de segurança (OWASP). Integração de microserviços e automação inteligente com IA para análise de transações e prevenção de fraudes.",
+            "link": "",
+            "tools": [
+                {
+                    "name": "Next.js"
+                },
+                {
+                    "name": "TypeScript"
+                },
+                {
+                    "name": "React.js"
+                },
+                {
+                    "name": "TailwindCSS"
+                },
+                {
+                    "name": "PostgreSQL"
+                },
+                {
+                    "name": "GraphQL"
+                },
+                {
+                    "name": "CI/CD"
+                },
+                {
+                    "name": "IA"
+                }
+            ]
+        },
+        {
+            "title": "ValidateSmsCode",
+            "text": "Plataforma de autenticação via SMS com foco em confiabilidade, escalabilidade e baixa latência. APIs seguras em Next.js + TypeScript com PostgreSQL otimizado para alto volume de transações. Interfaces modernas em React.js e TailwindCSS priorizando usabilidade e responsividade. Aplicação de boas práticas de segurança (OWASP) e criptografia de dados sensíveis. Uso de automação e IA para monitorar padrões de uso, detectar tentativas suspeitas e aumentar taxa de sucesso em validações.",
+            "link": "",
+            "tools": [
+                {
+                    "name": "Next.js"
+                },
+                {
+                    "name": "TypeScript"
+                },
+                {
+                    "name": "React.js"
+                },
+                {
+                    "name": "TailwindCSS"
+                },
+                {
+                    "name": "PostgreSQL"
+                },
+                {
+                    "name": "OWASP"
+                },
+                {
+                    "name": "IA"
+                }
+            ]
+        },
+        {
+            "title": "Aplicativos Móveis - Avalyst",
+            "text": "Desenvolvimento completo de dois aplicativos móveis para a empresa Avalyst, atuando sozinho em todo o ciclo: arquitetura, design, backend e frontend. Utilizando Flutter/Dart integrado a APIs PHP/MySQL. Backend robusto em PHP garantindo segurança, autenticação e comunicação em tempo real. Desenvolvimento mobile multiplataforma (Android/iOS) com UI responsiva, offline-first e integração com serviços externos (APIs REST, push notifications, pagamentos). Configuração de servidores Linux e automação de deploys.",
+            "link": "",
+            "tools": [
+                {
+                    "name": "Flutter"
+                },
+                {
+                    "name": "Dart"
+                },
+                {
+                    "name": "PHP"
+                },
+                {
+                    "name": "Angular"
+                },
+                {
+                    "name": "MySQL"
+                },
+                {
+                    "name": "Linux"
+                },
+                {
+                    "name": "API REST"
+                },
+                {
+                    "name": "DevOps"
+                }
+            ]
+        },
+        {
+            "title": "Bots e Automação com IA",
+            "text": "Desenvolvimento de sistemas automatizados em Python com foco em escalabilidade e segurança. Criação de bots inteligentes para Telegram utilizando Telethon, Pyrogram, pyTelegramBotAPI aplicando NLP para automação de atendimento e chatbots inteligentes. Projetos de automação com IA para análise de dados, classificação de mensagens e respostas automáticas usando Machine Learning e LLMs. Bots de automação para monitorar erros de servidor, abrir issues no GitHub e integrar com Kanban. Pipelines de automação em Linux/DevOps com alta disponibilidade.",
+            "link": "",
+            "tools": [
+                {
+                    "name": "Python"
+                },
+                {
+                    "name": "Telethon"
+                },
+                {
+                    "name": "NLP"
+                },
+                {
+                    "name": "Machine Learning"
+                },
+                {
+                    "name": "LLMs"
+                },
+                {
+                    "name": "LangChain"
+                },
+                {
+                    "name": "TensorFlow"
+                },
+                {
+                    "name": "GitHub API"
+                }
+            ]
+        }
+    ]
+}
