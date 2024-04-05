@@ -1,0 +1,120 @@
+{
+    "projects": [
+        {
+            "title": "KiyunaPay",
+            "text": "Apresento a KiyunaPay, meu projeto pessoal destacando tecnologias como Next.js v14, Typescript e PostgreSQL Serverless. É uma plataforma multi-tenant com arquitetura inovadora, separando administração e pagamentos para uma experiência de usuário fluida. Desenvolvi uma API versátil para integração com um futuro aplicativo complementar. Liderei todas as fases do projeto, do frontend ao gerenciamento do servidor. Busco oportunidades para aplicar minha experiência e paixão pelo desenvolvimento de software, destacando minha capacidade de criar soluções inovadoras e robustas.",
+            "link": "https://kiyunapay.com",
+            "tools": [
+                {
+                    "name": "TypeScript"
+                },
+                {
+                    "name": "Next.js"
+                },
+                {
+                    "name": "PostgreSQL"
+                },
+                {
+                    "name": "Prisma"
+                },
+                {
+                    "name": "React.js"
+                },
+                {
+                    "name": "TailwindCSS"
+                }
+            ]
+        },
+        {
+            "title": "ValidateSmsCode",
+            "text": "ValidateSmsCode, desenvolvido este ano. É um site SAAS que oferece validação eficiente de códigos SMS. Desenvolvi-o inteiramente, demonstrando liderança e habilidades técnicas em Next.js 14 e Typescript. O projeto abrange frontend responsivo, backend escalável e uma arquitetura de banco de dados otimizada. Estou orgulhoso do resultado e animado para discutir como posso contribuir para sua equipe.",
+            "link": "https://validatesmscode.com",
+            "tools": [
+                {
+                    "name": "Next.js"
+                },
+                {
+                    "name": "TypeScript"
+                },
+                {
+                    "name": "React.js"
+                },
+                {
+                    "name": "TailwindCSS"
+                },
+                {
+                    "name": "PostgreSQL"
+                },
+                {
+                    "name": "Prisma"
+                }
+            ]
+        },
+        {
+            "title": "Site Anime-Box",
+            "text": "Desenvolvi um site especializado em listar categorias de animes com descrições detalhadas em 2021. Utilizei React.js para o frontend, MongoDB para armazenamento de dados e integrei Amazon AWS Node.js e Express.js para infraestrutura e lógica de servidor. Embora o projeto seja de código fechado, estou entusiasmado para discutir os desafios enfrentados e as soluções criativas implementadas. Este projeto destaca minha capacidade de trabalhar com tecnologias de ponta para criar soluções inovadoras. Estou aberto para discutir mais detalhes e como posso contribuir para sua equipe.",
+            "link": "",
+            "tools": [
+                {
+                    "name": "React.js"
+                },
+                {
+                    "name": "MongoDB"
+                },
+                {
+                    "name": "Amazon EC2"
+                },
+                {
+                    "name": "Node.js"
+                }
+            ]
+        },
+        {
+            "title": "Lista Grupos e Canais Telegram",
+            "text": "Desenvolvi um site em 2022 especializado no cadastro e listagem de grupos e canais do Telegram, com rankings e mensalidades para destaques. Utilizei Next.js 13 e Typescript para construir uma interface dinâmica e segura. O projeto demonstra minha habilidade em trabalhar com tecnologias avançadas para criar soluções inovadoras. Embora o código seja privado, estou disponível para discutir desafios e estratégias utilizadas durante o desenvolvimento.",
+            "link": "",
+            "tools": [
+                {
+                    "name": "TypeScript"
+                },
+                {
+                    "name": "Next.js"
+                },
+                {
+                    "name": "MongoDB"
+                },
+                {
+                    "name": "Prisma"
+                },
+                {
+                    "name": "React.js"
+                },
+                {
+                    "name": "TailwindCSS"
+                }
+            ]
+        },
+        {
+            "title": "Bots em Python",
+            "text": "Desde 2021, venho desenvolvendo diversos Bots, Programas e Ferramentas utilizando Python. Meu conhecimento em Python surgiu enquanto buscava uma linguagem de programação voltada para execução em servidores e criação de bots e ferramentas. Encontrei no Python a solução perfeita que atende a todas as minhas necessidades. Desde então, tenho me aprofundado cada vez mais nessa linguagem. Gosto de desenvolver minhas ferramentas e scripts em Python, devido à facilidade de execução em qualquer ambiente.",
+            "link": "",
+            "tools": [
+                {
+                    "name": "Bots"
+                },
+                {
+                    "name": "Ferramentais"
+                },
+                {
+                    "name": "Scripts"
+                },
+                {
+                    "name": "APIs"
+                },
+                {
+                    "name": "automações"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "@rocketseat/eslint-config/next"
+  ],
+  "rules": {
+    "camelcase": "off"
+  },
+  "ignorePatterns": [
+    "node_modules/",
+    ".next",
+    "src/components/ui"
+  ]
+}
