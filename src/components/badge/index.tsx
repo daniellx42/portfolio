@@ -41,7 +41,7 @@ export const Badge = () => {
         <Band />
       </Physics>
       <Environment background blur={0.75}>
-        <color attach="background" args={['#232135']} />
+        <color attach="background" args={['#343144']} />
         <Lightformer
           intensity={2}
           color="white"
