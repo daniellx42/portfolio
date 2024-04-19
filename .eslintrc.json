@@ -7,8 +7,7 @@
     "camelcase": "off"
   },
   "ignorePatterns": [
-    "node_modules/",
-    ".next",
-    "src/components/ui"
+    "node_modules",
+    ".next"
   ]
 }
