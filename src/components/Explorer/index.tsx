@@ -1,3 +1,4 @@
+'use client'
 import {
   Cog,
   Cpu,
@@ -12,6 +13,7 @@ import { OpenFilesSubMenu } from '../OpenFilesTabs/OpenFilesSubMenu'
 import { File } from './File'
 import { Folder } from './Folder'
 import { SubMenu } from './SubMenu'
+import { Tour } from '../tourpopup'
 
 export type FileType = {
   title: string
@@ -44,42 +46,48 @@ export const explorerFiles: Record<string, FileType> = {
 }
 
 export function Explorer() {
+  const steps = {
+    title: 'Seja bem Vindo ao meu portfolio!',
+    text: 'Navegue entre as abas para conhecer mais sobre daniellx42.',
+  }
+
   return (
-    <div className="px-4 py-2 text-[#8F8CA8]  shadow shadow-white/10">
-      <strong className="flex items-center justify-between pl-2 text-xs font-medium">
+    <div className="px-4 py-2 text-[#8F8CA8] shadow shadow-white/10">
+      <p className="flex items-center justify-between pl-2 text-xs font-medium">
         EXPLORER
         <MoreHorizontal size={16} strokeWidth={1.5} />
-      </strong>
+      </p>
+      <Tour steps={steps}>
+        <nav className="mt-4 flex h-full min-w-44 flex-col">
+          <SubMenu title="OPEN EDITORS">
+            <OpenFilesSubMenu />
+          </SubMenu>
 
-      <nav className="mt-4 flex h-full min-w-44 flex-col">
-        <SubMenu title="OPEN EDITORS">
-          <OpenFilesSubMenu />
-        </SubMenu>
+          <SubMenu defaultOpen title="DANIELLX42">
+            <Folder defaultOpen title="Projects">
+              <File href="/projects">
+                <FolderKanban size={16} />
+                projects.md
+              </File>
+            </Folder>
 
-        <SubMenu defaultOpen title="DANIELLX42">
-          <Folder defaultOpen title="Projects">
-            <File href="/projects">
-              <FolderKanban size={16} />
-              projects.md
+            <Folder defaultOpen title="VS Code">
+              <File href="/vscode/settings">
+                <FileJson size={16} />
+                settings.json
+              </File>
+            </Folder>
+
+            <File
+              href="/readme"
+              className="flex items-center gap-2 px-4 py-1 pl-9 text-sm hover:bg-[#2a273f] hover:text-[#E0DEF2] data-[active=true]:bg-[#2a273f] data-[active=true]:text-[#E0DEF2]"
+            >
+              <User size={16} />
+              README.md
             </File>
-          </Folder>
-
-          <Folder defaultOpen title="VS Code">
-            <File href="/vscode/settings">
-              <FileJson size={16} />
-              settings.json
-            </File>
-          </Folder>
-
-          <File
-            href="/readme"
-            className="flex items-center gap-2 px-4 py-1 pl-9 text-sm hover:bg-[#2a273f] hover:text-[#E0DEF2] data-[active=true]:bg-[#2a273f] data-[active=true]:text-[#E0DEF2]"
-          >
-            <User size={16} />
-            README.md
-          </File>
-        </SubMenu>
-      </nav>
+          </SubMenu>
+        </nav>
+      </Tour>
     </div>
   )
 }
