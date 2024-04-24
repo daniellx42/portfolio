@@ -57,7 +57,7 @@ export function Explorer() {
         EXPLORER
         <MoreHorizontal size={16} strokeWidth={1.5} />
       </p>
-      <Tour steps={steps}>
+      <Tour steps={steps} classNameProps="ml-52" svg="left">
         <nav className="mt-4 flex h-full min-w-44 flex-col">
           <SubMenu title="OPEN EDITORS">
             <OpenFilesSubMenu />

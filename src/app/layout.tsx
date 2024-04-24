@@ -5,7 +5,7 @@ import { Menu } from '@/components/Menu'
 import { OpenFilesTabs } from '@/components/OpenFilesTabs'
 import { OpenFilesProvider } from '@/hooks/useOpenFiles'
 import { Roboto } from 'next/font/google'
-import './background.css'
+import { Background } from '@/components/background'
 import './globals.css'
 
 const roboto = Roboto({
@@ -31,22 +31,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={roboto.className}>
+      <body className={`${roboto.className}`}>
         <div className="flex h-screen w-full items-center justify-center p-4">
-          <div className="area">
-            <ul className="circles">
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
-          </div>
+          <Background />
           <div className="flex aspect-video w-full max-w-7xl flex-col justify-between overflow-hidden rounded-lg border border-[#72707D] bg-[#232135]">
             <OpenFilesProvider>
               <Header />

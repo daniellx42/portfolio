@@ -1,7 +1,7 @@
 'use client'
 
 import * as DropdownMenu from '@radix-ui/react-dropdown-menu'
-import { Github, Linkedin, User } from 'lucide-react'
+import { Github, Linkedin, User, Twitter } from 'lucide-react'
 import { MenuButton } from './MenuButton'
 
 const socialLinks = [
@@ -12,8 +12,13 @@ const socialLinks = [
   },
   {
     name: 'linkedin',
-    url: 'https://linkedin.com/in/daniellx42/',
+    url: 'https://linkedin.com/in/daniellx42',
     icon: <Linkedin size={14} />,
+  },
+  {
+    name: 'twitter',
+    url: 'https://x.com/daniellx42',
+    icon: <Twitter size={14} />,
   },
 ]
 

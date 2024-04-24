@@ -10,8 +10,13 @@ import {
 } from 'lucide-react'
 import { MenuButton } from './MenuButton'
 import { SocialLinksMenuButton } from './SocialLinksMenuButton'
+import { Tour } from '../tourpopup'
 
 export function Menu() {
+  const steps = {
+    title: 'Minhas Redes sociais!',
+    text: 'Redes sociais para contato!',
+  }
   return (
     <div className="flex flex-col justify-between">
       <div className="flex flex-col">
@@ -24,7 +29,10 @@ export function Menu() {
         <MenuButton icon={FlaskConical} />
       </div>
       <div className="flex flex-col items-center">
-        <SocialLinksMenuButton />
+        <Tour steps={steps} classNameProps="ml-16 mt-[-35px]" svg="left">
+          <SocialLinksMenuButton />
+        </Tour>
+
         <MenuButton icon={Cog} />
       </div>
     </div>
