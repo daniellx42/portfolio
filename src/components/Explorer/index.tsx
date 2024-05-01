@@ -7,7 +7,8 @@ import {
   Joystick,
   MoreHorizontal,
   Terminal,
-  User,
+  FileText,
+  BookOpenText,
 } from 'lucide-react'
 import { OpenFilesSubMenu } from '../OpenFilesTabs/OpenFilesSubMenu'
 import { File } from './File'
@@ -26,8 +27,12 @@ export const explorerFiles: Record<string, FileType> = {
     title: 'settings.json',
   },
   '/readme': {
-    icon: <User size={16} />,
+    icon: <BookOpenText size={16} />,
     title: 'README.md',
+  },
+  '/curriculum': {
+    icon: <FileText size={16} />,
+    title: 'currículo.pdf',
   },
   '/projects': {
     icon: <FolderKanban size={16} />,
@@ -82,8 +87,15 @@ export function Explorer() {
               href="/readme"
               className="flex items-center gap-2 px-4 py-1 pl-9 text-sm hover:bg-[#2a273f] hover:text-[#E0DEF2] data-[active=true]:bg-[#2a273f] data-[active=true]:text-[#E0DEF2]"
             >
-              <User size={16} />
+              <BookOpenText size={16} />
               README.md
+            </File>
+            <File
+              href="/curriculum"
+              className="flex items-center gap-2 px-4 py-1 pl-9 text-sm hover:bg-[#2a273f] hover:text-[#E0DEF2] data-[active=true]:bg-[#2a273f] data-[active=true]:text-[#E0DEF2]"
+            >
+              <FileText size={16} />
+              currículo.pdf
             </File>
           </SubMenu>
         </nav>
