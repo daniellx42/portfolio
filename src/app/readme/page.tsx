@@ -27,7 +27,7 @@ export default async function AboutMe() {
                 href="#"
                 className="mt-1 block text-lg font-medium leading-tight text-white hover:underline"
               >
-                Full Stack Web Developer
+                Software Developer / Full Stack Web Developer
               </a>
               <p className="text-slate-300">
                 Sou um apaixonado desenvolvedor Web com uma trajetória
@@ -42,10 +42,10 @@ export default async function AboutMe() {
                 interfaces de usuário intuitivas e responsivas, bem como
                 implementar lógicas complexas no lado do servidor. Além disso,
                 minha jornada profissional me proporcionou a oportunidade de
-                explorar outras linguagens como C#, C, OCaml, Rust, Dart, Shell
-                Script e muitas outras, ampliando assim meu repertório e minha
-                capacidade de adaptar-me a diferentes ambientes e requisitos de
-                projeto.
+                explorar outras linguagens como Go, Java, PHP, C#, C, OCaml,
+                Rust, Dart, Shell Script e muitas outras, ampliando assim meu
+                repertório e minha capacidade de adaptar-me a diferentes
+                ambientes e requisitos de projeto.
               </p>
             </div>
           </div>
